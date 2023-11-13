@@ -24,6 +24,7 @@ namespace Task1
                 {
                     throw new System.ArgumentException("Characters were not added");
                 }
+
                 Console.WriteLine(enteredText[0]);
             }
             catch (ArgumentNullException a)
